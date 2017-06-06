@@ -3,15 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kitten</title>
-	<link rel="stylesheet" href="assets/css/media.css">
+	
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
-	<section class="todo">
-	<div class="imagenuno">
-			<img class="gatouno" src="assets/img/gatomedio.png" alt="">
-		
-		</div>
+	<section class="container flex-container">
+
+	<picture>
+		<source srcset="assets/img/gatomedio.png" media="(min-width:825px)">
+		<source srcset="assets/img/gatoestirado.png" media="(min-width:535px")>
+		<img src="assets/img/gatodurmiendo.png">
+		</picture>
 	</section>
 	
 </body>
