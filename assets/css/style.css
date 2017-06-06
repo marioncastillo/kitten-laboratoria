@@ -1,0 +1,17 @@
+
+
+.imagenuno{
+	background-image: url(../img/Landscape.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+
+.gatouno{
+	z-index: 10;
+	margin-top: 400px;
+	margin-left: 300px;
+
+}
